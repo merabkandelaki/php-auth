@@ -1,0 +1,57 @@
+/* სტილი ყველა ტეგისთვის */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* სტილი ტეგისთვის body */
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Montserrat, sans-serif;
+}
+/* სტილი ტეგისთვის a */
+a {
+  color: #7c9ab7;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* სტილი ტეგისთვის p */
+p {
+  margin: 10px 0;
+}
+/* სტილი ტეგისთვის form */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+/* სტილი ტეგისთვის input */
+input {
+  margin: 10px 0;
+  padding: 10px;
+  border: unset;
+  border-bottom: 2px solid #e3e3e3;
+  outline: none;
+}
+/* სტილი ტეგისთვის button */
+button {
+  padding: 10px;
+  background: #e3e3e3;
+  border: unset;
+  cursor: pointer;
+}
+/* სტილი მესიჯისთვის */
+.msg {
+  border: 2px solid #ffa908;
+  border-radius: 3px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.logout {
+  color: #b7625c;
+}
